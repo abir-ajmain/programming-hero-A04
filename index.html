@@ -24,13 +24,13 @@
   </head>
 
   <body class="mb-14 mt-7">
-    <header class="max-w-11/12 mx-auto space-y-6">
-      <h1 class="text-[34px] font-bold text-[#002C5C]">
+    <header class="max-w-[600px] sm:max-w-11/12 mx-auto space-y-6">
+      <h1 class="text-[18px] sm:text-[34px] font-bold text-[#002C5C]">
         Job Application Tracker
       </h1>
-      <section class="flex justify-between">
+      <section class="flex justify-evenly gap-5 sm:justify-between">
         <!--Header-Card-1-->
-        <div class="card w-72 bg-base-100 card-lg shadow-sm">
+        <div class="card w-32 sm:w-72 bg-base-100 card-lg shadow-sm">
           <div class="card-body">
             <h2 class="card-title">Total</h2>
             <p id="total-stat" class="text-[#002C5C] font-bold text-2xl">0</p>
@@ -38,7 +38,7 @@
         </div>
         <!--Header-Card-1-->
         <!--Header-Card-2-->
-        <div class="card w-72 bg-base-100 card-lg shadow-sm">
+        <div class="card w-32 sm:w-72 bg-base-100 card-lg shadow-sm">
           <div class="card-body">
             <h2 class="card-title">Interview</h2>
             <p id="interview-stat" class="text-[#10B981] font-bold text-2xl">
@@ -48,7 +48,7 @@
         </div>
         <!--Header-Card-2-->
         <!--Header-Card-3-->
-        <div class="card w-72 bg-base-100 card-lg shadow-sm">
+        <div class="card w-32 sm:w-72 bg-base-100 card-lg shadow-sm">
           <div class="card-body">
             <h2 class="card-title">Rejected</h2>
             <p id="reject-stat" class="text-[#EF4444] font-bold text-2xl">0</p>
@@ -63,9 +63,9 @@
       <!--toggle button section-->
       <section id="btn-menu" class="space-y-5">
         <div
-          class="flex justify-between mt-6 text-[#323B49] text-[16px] font-medium"
+          class="flex flex-row gap-10 sm:gap-48 lg:gap-80 mt-6 text-[#323B49] text-[16px] font-medium"
         >
-          <h2 class="text-2xl font-semibold">Available Jobs</h2>
+          <h2 class="text-xl sm:text-2xl font-semibold">Available Jobs</h2>
           <p><span id="available-jobs">0</span> jobs</p>
         </div>
         <div id="tabs">
